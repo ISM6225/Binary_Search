@@ -112,7 +112,7 @@ namespace Binary_Search
                         // Otherwise, low will be used to continue the search
                         low = mid + 1;
                         Console.WriteLine("");
-                        Console.WriteLine("Found this integer else: " + get_middle + " But that's not it!");
+                        Console.WriteLine("Found this integer: " + get_middle + " But that's not it!");
                     }
                 }
                 
@@ -131,7 +131,7 @@ namespace Binary_Search
             } // End of try
             catch
             {
-
+                Console.WriteLine("Please enter an integer value");
             } // End of catch
         }
 
