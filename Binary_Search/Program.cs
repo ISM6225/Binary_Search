@@ -131,7 +131,8 @@ namespace Binary_Search
             } // End of try
             catch
             {
-                Console.WriteLine("Please enter an integer value");
+                Console.WriteLine("Please enter an integer value and try again ...");
+                Console.ReadKey(true);
             } // End of catch
         }
 
