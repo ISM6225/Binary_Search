@@ -1,5 +1,8 @@
 ﻿/*
- Methods to compare performance of simple search and binry search
+ Methods to compare performance of simple search and binry search.
+
+ The code essentially replicates the code in the main() method, but adds timers.
+ It also removes print statements, since they can add noise to the timing measurements
 
  Version history
  v1: January 27, 2019
