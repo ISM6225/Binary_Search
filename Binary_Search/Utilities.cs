@@ -61,6 +61,7 @@ namespace Binary_Search
           else
           {
             searchIndex++;
+            Console.WriteLine("searching at: " + searchIndex);
           }
         }
 

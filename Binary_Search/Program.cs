@@ -135,7 +135,7 @@ namespace Binary_Search
         Console.ReadKey(true);
       } // End of catch
 
-      Utilities.CompareTimes();
+      //Utilities.CompareTimes();
     }
   }
 }
